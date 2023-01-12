@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML for python flask</title>
+	<link rel = "stylesheet" href = "{{ url_for('static', filename = 'css/voca.css') }}">
+</head>
+
+<body>
+	<form action="/login" method="post">
+	​	<p>id : <input type="text" id="id" name="id" value = '{{id}}'></p>
+		<p>pass : <input type="text" id="pass" name="pass" value = '{{pas}}'></p>
+		<p>.<input type="submit" value="제출" onclick="alert('제출 완료!')" /></p>
+	</form>
+</body>
+</html>
