@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML for python flask</title>
+	<link rel = "stylesheet" href = "C:\Users\USER\Desktop\플라스크\static\css\voca_main_login.css">
+</head>
+
+<body>
+	<p id = "main_text">VOCA HELPER</p>
+	<form action="/login" method="post" >  <!-- 로그인 값 보냄 id,"id값"  pass,"pass값"  new_member,"yes"or"no"-->
+	​	<p id = "id">id : <input type="text"  name="id" value = '{{id}}'></p>
+		<p id = "pass">pass : <input type="text" name="pass" value = '{{pas}}'></p>
+		<input type="submit" id = "login" name = "new_member" value="login" formaction onclick="alert('제출 완료!')" />
+		<input type="submit" id = "new_login" name = "new_member" value="new member" formaction onclick="alert('제출 완료!')" />
+	</form>
+</body>
+</html>

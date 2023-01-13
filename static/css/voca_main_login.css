@@ -11,7 +11,7 @@ body{
 	color : white;
 	background-color : #5B2CE9;
 	font-size : xxx-large;
-	font-weight : 900
+	font-weight : 900;
 }
 #id{  /*id 입력박스*/
 	position : absolute;
@@ -20,7 +20,7 @@ body{
 	transform: translate(-55%, -150%);
     
 	color : white;
-	font-size : large
+	font-size : large;
 	font-weight : bold; 
 }
 #pass{ /*비번 입력박스*/
@@ -30,7 +30,7 @@ body{
 	transform: translate(-50%, 50%);
     
 	color : white;
-	font-size : large
+	font-size : large;
 	font-weight : bold;
 }
 #login{ /* 로그인 버튼*/
